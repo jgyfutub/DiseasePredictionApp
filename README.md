@@ -35,4 +35,4 @@ This is a Disease Prediction App built using python react and flask.It helps to 
 
 
 ## Note :
- - For viewing the notebook visit ' https://www.kaggle.com/code/vedant2003pandey/diseaseprediction/notebook '
+ - For viewing the notebook visit  https://www.kaggle.com/code/vedant2003pandey/diseaseprediction/notebook or you can view from the notebook above
