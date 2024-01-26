@@ -155,8 +155,10 @@ export default function HomePage(){
         // window.location.reload()
     }
     return <div><div>
+    <h1>Select symptoms from below to help model predict your disease: </h1>
+    <div style={{display:'flex',flexWrap:'wrap',marginTop:50}}>
     {options.map((isSelected, index) => (
-      <div key={index}>
+      <div key={index} style={{padding:10}}>
         <input
           type="radio"
           id={`radio-${index}`}
@@ -167,13 +169,15 @@ export default function HomePage(){
         <label htmlFor={`radio-${index}`}>{` ${arr[index]}`}</label>
       </div>
     ))}
+    </div>
     <p>
-      Selected Options:{' '}
-      {options.map((isSelected, index) => (isSelected ? ` ${arr[index]} ` : null))}
+      <h1>Selected Options: </h1>
+      {options.map((isSelected, index) => (isSelected ? <h3>{arr[index]} </h3>: null))}
     </p>
   </div>
     <form onSubmit={handleSubmit}>
-        <button type='submit' name='caption'>Submit</button>
+        <button type='submit' name='caption' style={{backgroundColor: "rgb(7, 178, 7)",marginLeft: 30,height: 30,width: 100,marginTop: 15,borderWidth: 0,borderRadius: 5,color: 'white'
+    ,padding: 2}}>Submit</button>
     </form>
     <h1>{disease}</h1>
   </div>
