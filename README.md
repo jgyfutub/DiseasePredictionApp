@@ -17,8 +17,8 @@ This is a Disease Prediction App built using python react and flask.It helps to 
 
 #### For Reactjs:
 
-- open terminal in VS code and go into imagegenerator folder if you are not there
-- write ` cd front ` to enter frontend files
+- open terminal in VS code and go into DiseasePredictionApp folder if you are not there
+- write ` cd my-app ` to enter frontend files
 - write ` npm i ` for all frontend modules to be downloaded
 - write ` npm start ` to start the frontend server
 - go to http://localhost:3000/ to use app
@@ -31,7 +31,7 @@ This is a Disease Prediction App built using python react and flask.It helps to 
 - write ` venv\Scripts\activate ` to activate it
 - now cd to backend to access flask file
 - install dependencies ` pip install flask joblib flask_cors scikit-learn==1.2.2 `
-- now write ` python flaskmain.py ` to start server 
+- now write ` python flaskmain.py ` to start the flask server 
 
 
 ## Note :
