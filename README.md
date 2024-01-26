@@ -31,7 +31,7 @@ This is a Disease Prediction App built using python react and flask.It helps to 
 - write ` venv\Scripts\activate ` to activate it
 - now cd to backend to access flask file
 - install dependencies ` pip install flask joblib flask_cors scikit-learn==1.2.2 `
-- now write ` python flaskmain.py ` to start the flask server 
+- now write ` python main.py ` to start the flask server 
 
 
 ## Note :
